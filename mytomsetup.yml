@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: centos7 
   become: yes
   roles:
     - {role: tomcat, when: ansible.os.family == "RedHat"}
