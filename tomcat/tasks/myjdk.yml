@@ -1,0 +1,5 @@
+---
+  - name: install jdk8
+    yum:
+        name: java-18.0-opnjdk
+        state: present

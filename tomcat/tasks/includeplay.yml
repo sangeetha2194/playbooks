@@ -1,0 +1,10 @@
+# total list of playbooks to install tomcat on cento7
+---
+- include_tasks: myjdk.yml
+- include_tasks: tomcat.yml
+- include_tasks: template.yml
+- include_tasks: adminpack.yml
+- include_tasks: usertemplate.yml
+
+# include_tasks: myjdk.yml
+# include_tasks: myjdk.yml

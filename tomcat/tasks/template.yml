@@ -1,0 +1,6 @@
+---
+- name: replacing the JAVA_OPTS line inside tomcat.conf
+  template:
+    src: templates/tomcat-conf.j2
+    dest: /usr/share/tomcat/conf/tomcat.conf
+  notify: starttomcat

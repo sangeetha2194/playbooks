@@ -1,0 +1,8 @@
+---
+- name: replacing tomcat-user file with my data
+  template:
+    src: templates/tomcat-users.j2
+    dest: /usr/share/tomcat/conf/tomcat-user.xml
+  notify: restarttomcat
+ 
+  

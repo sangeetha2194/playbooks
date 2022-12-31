@@ -1,0 +1,3 @@
+---
+# var which is for vault_ansible for tomcat directory
+mysqlpassword: rootroot
